@@ -1,8 +1,8 @@
 tutorial
 =======
 
-Tutorial script for OSG Connect that lists and installs tutorial files.
-This script assumes that any repo in the OSGConnect github repo that has 
+Tutorial script for CMS Connect that lists and installs tutorial files.
+This script assumes that any repo in the CMSConnect github repo that has 
 a name like tutorial-* is a 
 
 tutorial info modulename or tutorial --info modulename gives the description 
