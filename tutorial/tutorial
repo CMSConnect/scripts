@@ -19,7 +19,7 @@ ConfigFiles = ['/etc/ciconnect/config.ini']
 # Default configuration
 Defaults = '''
 [connect]
-brand = osg
+brand = cms
 errorsto = root
 
 [tutorial]
@@ -27,14 +27,14 @@ localpaths = /stash/tutorials
 github-paths = default
 
 [collections]
-default = CI-Connect/tutorial-, OSGConnect/tutorial-
+default = CMSConnect/tutorial-
 '''
 
 # GitHub limits API access for anonymous clients, so we'll authenticate
 # to this service account just to extend API limits.
 OAuthClient = {
-    'clientid': 'daf652bf17f603644de5',
-    'secret': '8041808c74efe3090359b9c353a9d87e3e1d6c8f',
+    'clientid': '6d5936f0dbe05bea1bcb',
+    'secret': 'be455326e707ee6b87c169855e6f7014329a90da',
 }
 
 def githuburl(path, **params):
